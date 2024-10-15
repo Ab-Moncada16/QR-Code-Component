@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5e1ef;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(209, 34%, 17%);
+    margin-bottom: 15px;    
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 40px; 
+}
+
+a {
+    color: hsl(209, 34%, 17%);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 200ms;
+}
+
+a:hover {
+    color: #3685ff;
+}
+
+.container {
+    margin: auto auto;
+    width: 300px;
+    background: white;
+    border-radius: 18px;        
+    box-shadow: 0 0 9px 7px hsla(0, 0%, 0%, 0.25);
+}
+
+.qr-img {
+    width: 270px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.text-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.attribution {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.84rem + 0.80vw, 1.56rem);
+    text-align: center;
+    line-height: 40px;
+    color: hsl(209, 34%, 17%);
+    min-width: 320px;
+}
+
+.fa-heart {
+    color: rgb(231, 0, 0);
+}
+
+.fa-brain {
+    color: rgb(199, 60, 199);
+}
